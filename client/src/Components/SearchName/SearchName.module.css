@@ -1,0 +1,9 @@
+.search input{
+    border-radius: 10px;
+    height:20px;
+    border: 2px solid rgb(185, 181, 181);
+}
+
+.search {
+    cursor: pointer;
+}

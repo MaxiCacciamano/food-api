@@ -1,0 +1,28 @@
+.foo{
+    background-color: rgb(116, 144, 116);
+    height:90px;
+    width: 1500px;
+    position: relative;
+    margin: auto;
+    top:20px;
+    border-radius: 20px 5px;
+}
+.search{
+    left:400px;
+    position:relative;
+    top:30px;
+}
+
+.but{
+    right:650px;
+    top:-15px;
+    position:relative;
+}
+.but button{
+    border-radius: 100%;
+    cursor:pointer;
+}
+.but img{
+    width: 65px;
+    height: 60px;
+}

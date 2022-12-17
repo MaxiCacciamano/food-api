@@ -1,0 +1,10 @@
+.Oname h3{
+    color:white;
+    font-size:15px;
+}
+
+.Oname select{
+    border-radius:10px;
+    border: 2px solid dimgrey;
+    width:173px;
+}

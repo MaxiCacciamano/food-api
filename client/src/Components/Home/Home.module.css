@@ -1,0 +1,117 @@
+.bod{
+    /* background-image: url(../../img/fondoalimentos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:1000px;
+    /* margin-top:-300px; */
+    /* height:3000px;
+    margin-top:-20px;  */
+}
+header{
+    /* background-color: dimgrey;
+    margin-left: 300px;
+    top: 1%;
+    margin:auto;
+    border-radius:5px 50px;
+    height:100px; */
+    
+}
+
+.cardHome{
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 78%;
+    /* margin-left: 20%; */
+    /* padding: 15px; */
+    /* margin-top: 400px; */
+    margin-left: 250px;
+    margin-right:200px;
+}
+
+.cardHome h1{
+    position: relative;
+    top: 250px;
+}
+
+.gif {
+    position: relative;
+    top:200px;
+    width: 180px;
+    height:150px;
+    border-radius: 100px;
+}
+
+.filter h3{
+    color:white;
+}
+
+.filter select{
+    width:173px;
+    border-radius:10px;
+    border: 2px solid dimgrey;
+}
+
+.filtros{
+
+    display: absolute;
+    flex-direction: column;
+    /* background-color: wheat; */
+    /* color: #1a3813c5; */
+    top: 60px;
+    left: 2%;
+    margin: 100px 5px;
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 12px;
+    min-width: 200px;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: fixed;
+    background-color:rgb(116, 144, 116);
+}
+
+.create {
+    margin-top:30px;
+    background-color:rgb(175, 175, 175);
+    border-radius: 25px 5px;
+    height: 160px;
+}
+/* .create p{
+    margin-top:20px;
+    font-size:15px;
+    /* border: 2px solid white; */
+/* }  */
+.create:hover{
+    color: white;
+    box-shadow: 
+    0 0 50px 50px #717a80 inset,
+    0 0 10px #fff4f4;
+}
+.create::after hover{
+    color: white;
+    box-shadow: 
+    0 0 50px 50px #717a80 inset,
+    0 0 10px #fff4f4;
+}
+
+.create h3{
+    font-size:20px;
+}
+
+.create button{
+    border-radius: 100%;
+    height:90px;
+    margin-bottom:90px;
+    cursor:pointer;
+    margin-top:30px;
+
+}
+footer{
+    /* position: fixed;
+    top: 75%;
+    left: 50%; */
+}

@@ -1,0 +1,57 @@
+.im{
+    background-image: url(../../img/f.jpg);
+    background-size: 100%;
+    background-position-x: -100%;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    height:auto;
+}
+
+
+.landing{
+    /* margin-top:10rem; */
+    position: absolute;
+    width: 200px;
+    left:80px;
+    position: absolute;
+}
+.landing p{
+    font-size:70px;
+}
+.landing a{
+    font-size:1rem;
+    text-decoration:none;
+}
+
+.Landing button{
+    font-size:18px;
+    padding: 1em 2.4em;
+    font-weight: 20px;
+    letter-spacing: 2px;
+    background: transparent;
+    transition: 250ms ease-in-out;
+    cursor:hand;
+    text-decoration: none;
+}
+.landing strong{
+    color:darkturquoise;
+}
+
+.landing strong{
+    font-family: 'Dancing Script', cursive;
+}
+.but {
+    cursor:pointer;
+    height:60px;
+    weight:90px;
+    border-radius: 100%;
+    
+}
+
+.but:hover{
+    color: white;
+    box-shadow: 
+    0 0 50px 50px #717a80 inset,
+    0 0 10px #fff4f4;
+}
+

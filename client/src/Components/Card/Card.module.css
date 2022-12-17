@@ -1,0 +1,148 @@
+/* body{
+    background: linear-gradient(to right, #a5fecb, #20bdff,#5433ff);
+} */
+.main{
+    width:1100;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap; 
+    padding:100px 50px 10px; 
+    height:auto;
+}
+
+.link{
+   position:absolute;
+   text-decoration:none;
+   margin:auto;
+   top:315px;
+   left:10px;
+}
+.bo{
+   border-radius:30px;
+   padding:5px;
+   cursor:pointer;
+}
+
+.content p{
+    font-size:30px;
+}
+
+.box{
+   width: 200%;
+   height:350px;
+   /* padding:10px; */
+   box-shadow: 6px 7px 8px -6px rgba(69,69,69,0.7); 
+   position: relative;
+   border-radius:10px;
+   background-color:rgb(116, 144, 116);
+   overflow:hidden;
+}
+
+.box:hover{
+   visibility: visible;
+   opacity: 1;
+   margin-top: 40px;
+   transition-delay: 0.3s;
+}
+
+.content h1{
+   position:absolute;
+   padding:20px;
+   text-decoration: none;
+   font-size:15px;
+   font-family: 'Kanit', sans-serif;
+   color: white!important;
+   top:120px;
+   /* font-family: 'Dancing Script', cursive; */
+}
+.imgBx{
+   /* position:relative; */
+   /* background: #fff; */
+   /* top: auto;
+   left:0px;
+   min-width: initial;
+   width: 260px;
+   height:260px;
+   border-radius: 4px;
+   box-shadow: 0 5px 20px */
+
+}
+.content img{
+   width: 300px;
+  height:195px;
+  border-radius:10px;
+  /* margin-top: -90px; */
+  /* margin-bottom: -120px; */
+
+}
+.main .box .content{
+   position: relative;
+   /* margin-top: 2px; */
+   text-align: center;
+   color: #111;
+   /* visibility: hidden; */
+   /* opacity: 0; */
+   transition: 0.3s ease-in-out;
+   transition-delay: 0s;
+   height:270px;
+}
+.main p{
+}
+/* .main .box .content {
+   margin-bottom:-120px;
+} */
+.main:hover {
+   
+   transform: scale(1.05,1.05);
+
+   border-radius: 28px;
+   /* height:280px; */
+}
+
+.diets{
+   display: flex;
+   flex-wrap: wrap; 
+   position: absolute;
+   top:220px;
+   width:90%;
+   left:20px;
+   justify-content: center;
+   height:auto;
+   /* margin-top:-10px; */
+}
+
+.h{
+   size: 30px;
+   background: white;
+   /* width: 100px; */
+   /* display: unset; */
+   margin: 2px;
+   border-radius:20px;
+   display: inline-table;
+   width:60px;
+   height:10px;
+   background-color:rgb(186, 241, 236);
+   border: 2px solid black;
+   /* display: -webkit-inline-box; */
+}
+.box p{
+   padding:5px;
+   font-size:10px;
+   text-align: center;
+   padding:8px;
+
+}
+/* .card-footer button {
+   width: 150px;
+   background: black;
+   color: white;
+   border-radius: 15px;
+   border: 2px solid black;
+   padding: 6px;
+   font-size: 17px;
+   cursor: pointer;
+   margin: 10px;
+   transition: 0.2s;
+   cursor: pointer;
+
+} */
